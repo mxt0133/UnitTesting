@@ -1,5 +1,5 @@
 ﻿(function () {
-    var app = angular.module('demoApp', [
+    var app = angular.module('unitTestApp', [
         'ng',
         'controllers',
         'services'

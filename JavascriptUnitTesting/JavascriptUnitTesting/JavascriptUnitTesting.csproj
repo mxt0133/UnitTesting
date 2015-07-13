@@ -14,7 +14,7 @@
     <RootNamespace>JavascriptUnitTesting</RootNamespace>
     <AssemblyName>JavascriptUnitTesting</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <UseIISExpress>true</UseIISExpress>
+    <UseIISExpress>false</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="index.html" />
     <Content Include="Scripts\lib\angular.js" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
@@ -73,8 +74,10 @@
     <Content Include="Scripts\controllers\DataTypesController.js" />
     <Content Include="Scripts\app\service.js" />
     <Content Include="Scripts\services\DataTypesService.js" />
+    <Content Include="Scripts\services\RemoteDataService.js" />
     <Content Include="TestService.js" />
-    <Content Include="Tests\angularServiceTests.js" />
+    <Content Include="Tests\angularDataTypeServiceTests.js" />
+    <Content Include="Tests\angularRemoteDataServiceTests.js" />
     <Content Include="Tests\lib\angular-mocks.js" />
     <Content Include="Tests\lib\jasmine.js" />
     <Content Include="Tests\UnitTestExample.js" />
@@ -102,7 +105,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>13920</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:13920/</IISUrl>
+          <IISUrl>http://localhost/JavascriptUnitTesting</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

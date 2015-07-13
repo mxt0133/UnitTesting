@@ -9,7 +9,7 @@
 */
 
 // Library references
-/// <reference path="lib/ajasmine.js"/>
+/// <reference path="lib/jasmine.js"/>
 
 
 // Source code references
