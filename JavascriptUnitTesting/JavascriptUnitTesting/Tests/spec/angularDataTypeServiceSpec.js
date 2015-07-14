@@ -1,11 +1,11 @@
 ﻿// Lib references
-///<reference path="lib/jasmine.js"/>
-///<reference path="../Scripts/lib/angular.js"/>
-///<reference path="lib/angular-mocks.js"/>
+///<reference path="../lib/jasmine-2.3.4/jasmine.js""/>
+///<reference path="../../Scripts/lib/angular.js"/>
+///<reference path="../lib/angular-mocks.js"/>
 
 // Source references
-///<reference path="../Scripts/app/service.js"/>
-///<reference path="../Scripts/services/DataTypesService.js"/>
+///<reference path="../../Scripts/app/service.js"/>
+///<reference path="../../Scripts/services/DataTypesService.js"/>
 
 describe("Services", function () {
 

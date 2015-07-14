@@ -9,11 +9,11 @@
 */
 
 // Library references
-/// <reference path="lib/jasmine.js"/>
+/// <reference path="../lib/jasmine-2.3.4/jasmine.js""/>
 
 
 // Source code references
-/// <reference path="../TestService.js"/>
+/// <reference path="../../Scripts/TestService.js"/>
 
 describe("TestService.MethodA", function ()
 {

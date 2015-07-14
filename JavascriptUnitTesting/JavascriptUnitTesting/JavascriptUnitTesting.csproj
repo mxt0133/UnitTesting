@@ -60,6 +60,13 @@
     <Content Include="index.html" />
     <Content Include="Scripts\lib\angular.js" />
     <Content Include="packages.config" />
+    <Content Include="Tests\angular-mocks.js" />
+    <Content Include="Tests\lib\jasmine-2.3.4\boot.js" />
+    <Content Include="Tests\lib\jasmine-2.3.4\console.js" />
+    <Content Include="Tests\lib\jasmine-2.3.4\jasmine-html.js" />
+    <Content Include="Tests\lib\jasmine-2.3.4\jasmine.css" />
+    <Content Include="Tests\lib\jasmine-2.3.4\jasmine.js" />
+    <Content Include="Tests\lib\jasmine-2.3.4\jasmine_favicon.png" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -75,12 +82,12 @@
     <Content Include="Scripts\app\service.js" />
     <Content Include="Scripts\services\DataTypesService.js" />
     <Content Include="Scripts\services\RemoteDataService.js" />
-    <Content Include="TestService.js" />
-    <Content Include="Tests\angularDataTypeServiceTests.js" />
-    <Content Include="Tests\angularRemoteDataServiceTests.js" />
+    <Content Include="Scripts\TestService.js" />
+    <Content Include="Tests\spec\angularDataTypeServiceSpec.js" />
+    <Content Include="Tests\spec\angularRemoteDataServiceSpec.js" />
     <Content Include="Tests\lib\angular-mocks.js" />
-    <Content Include="Tests\lib\jasmine.js" />
-    <Content Include="Tests\UnitTestExample.js" />
+    <Content Include="Tests\SpecRunner.html" />
+    <Content Include="Tests\spec\UnitTestExampleSpec.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
