@@ -1,5 +1,7 @@
 ﻿var TestService = function () {
     function MethodA() { return "Called MethodA"; }
 
-    return { MethodA: MethodA };
+    function SayHello(name) { return 'Hello "' + name + '"!'};
+
+    return { methodA: MethodA, sayHello : SayHello };
 };

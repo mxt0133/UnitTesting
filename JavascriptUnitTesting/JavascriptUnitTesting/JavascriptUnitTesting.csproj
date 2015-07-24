@@ -19,6 +19,10 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -57,10 +61,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="index.html" />
+    <Content Include="Scripts\app\directive.js" />
+    <Content Include="Scripts\directives\SvgCircleDirective.js" />
     <Content Include="Scripts\lib\angular.js" />
-    <Content Include="packages.config" />
-    <Content Include="Tests\angular-mocks.js" />
     <Content Include="Tests\lib\jasmine-2.3.4\boot.js" />
     <Content Include="Tests\lib\jasmine-2.3.4\console.js" />
     <Content Include="Tests\lib\jasmine-2.3.4\jasmine-html.js" />
@@ -83,15 +86,16 @@
     <Content Include="Scripts\services\DataTypesService.js" />
     <Content Include="Scripts\services\RemoteDataService.js" />
     <Content Include="Scripts\TestService.js" />
+    <Content Include="Tests\spec\angularDataTypesControllerSpec.js" />
     <Content Include="Tests\spec\angularDataTypeServiceSpec.js" />
     <Content Include="Tests\spec\angularRemoteDataServiceSpec.js" />
     <Content Include="Tests\lib\angular-mocks.js" />
-    <Content Include="Tests\SpecRunner.html" />
+    <Content Include="Tests\SpecRunner.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\spec\angularSvgCircleDirectiveSpec.js" />
     <Content Include="Tests\spec\UnitTestExampleSpec.js" />
     <Content Include="Web.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />

@@ -1,6 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+    
     <meta charset="utf-8">
     <title>Jasmine Spec Runner v2.3.4</title>
 
@@ -13,24 +14,29 @@
     <script src="lib/jasmine-2.3.4/boot.js"></script>
 
     <script src="../Scripts/lib/angular.js"></script>
+    
     <!-- jasmine must be defined before angular-mocks or module and inject will not be loaded -->
     <script src="lib/angular-mocks.js"></script>
 
-
     <!-- include source files here... -->
+    
     <script src="../Scripts/app/app.js"></script>
     <script src="../Scripts/app/controller.js"></script>
     <script src="../Scripts/app/service.js"></script>
+    <script src="../Scripts/app/directive.js"></script>
     <script src="../Scripts/TestService.js"></script>
     <script src="../Scripts/services/DataTypesService.js"></script>
     <script src="../Scripts/services/RemoteDataService.js"></script>
     <script src="../Scripts/controllers/DataTypesController.js"></script>
-
-    <!-- include spec files here... -->
-    <script src="spec/UnitTestExampleSpec.js"></script>
+    <script src="../Scripts/directives/SvgCircleDirective.js"></script>
+    
+    <!-- include spec files here... -->    
+    
+    <script src="spec/UnitTestExampleSpec.js"></script>    
+    <script src="spec/angularDataTypesControllerSpec.js"></script>
     <script src="spec/angularDataTypeServiceSpec.js"></script>
     <script src="spec/angularRemoteDataServiceSpec.js"></script>    
-
+    
 </head>
 
 <body>
